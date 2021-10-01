@@ -1,6 +1,6 @@
 # Real Estate Analysis
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![SQL](https://img.shields.io/badge/Sql-red)
+![SQL](https://img.shields.io/badge/SQL-red)
 ## Introduction
 
 ```
