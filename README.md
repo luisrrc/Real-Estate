@@ -62,6 +62,8 @@ Finally the final dataset is saved in a csv file "cleaned_data.csv".
 ## Data Analysis
 
 After creating a clean dataset (cleaned_data.csv) the file was uploaded to posgresql, so that an exploratory analysis of the data can be done, both in python and SQL.
+The code for this stage is in the "Data Analysis.ipynb" notebook.
 
-![](C:/Users/LUIS/OneDrive/Escritorio/output sql.png)
-![Alt text](relative/C:/Users/LUIS/OneDrive/Escritorio/output sql.png/to/img.png?raw=true "Storing the data in PostgreSQL")
+In this EDA, we asked several questions of the data to find patterns and possible correlations between the different variables that could explain house prices:
+
+
