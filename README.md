@@ -59,3 +59,7 @@ For this data processing, transformation and cleaning step use the pandas librar
 
 Finally the final dataset is saved in a csv file "cleaned_data.csv".
 
+## Data Analysis
+
+After creating a clean dataset (cleaned_data.csv) the file was uploaded to posgresql, so that an exploratory analysis of the data can be done, both in python and SQL.
+![alt text](C:\Users\LUIS\OneDrive\Escritorio\output sql.png "Storing the data in PostgreSQL")
