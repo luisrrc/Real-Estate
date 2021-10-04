@@ -27,7 +27,7 @@ Only the last 1000 records from the following cities were selected:
 - San Francisco
 - Washington, D.C.
 
-Each dataset consists of the following attributes:
+Each dataset consists of the following columns:
 - Address
 - Bedrooms
 - Bathrooms
@@ -37,3 +37,25 @@ Each dataset consists of the following attributes:
 - Pool
 - Location
 - Price
+
+The 10 datasets are located in the raw data folder, likewise the code to extract the 10 datasets are located in the Data Extraction folder.
+
+## Data Cleaning
+
+For this data processing, transformation and cleaning step use the pandas library.
+
+1) Join each dataset of the 10 cities to form a single dataset with the name "df_combined".
+
+2) Explored the columns of the dataset to see if there are many missing values: 
+
+- The column "Pool" is eliminated because it had more than 2000 missing records. Therefore, the dataset now consists of 9 columns.
+- Any row containing a missing value is removed.
+
+3) We proceed to transform each column separately, correcting the data type and eliminating special characters.
+
+4) A new column is created for the dataset "price / sqft".
+
+5) Search for outliers in the data.
+
+Finally the final dataset is saved in a csv file "cleaned_data.csv".
+
