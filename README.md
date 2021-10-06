@@ -71,7 +71,9 @@ The code for this stage is in the "Data Analysis.ipynb" notebook.
 
 ![output sql](https://user-images.githubusercontent.com/58336896/136228453-21e794d2-f2dc-4bd8-b362-b0c1e689c166.png)
 
-In this EDA, we asked several questions of the data to find patterns and possible correlations between the different variables that could explain house prices:
+![postgresql](https://user-images.githubusercontent.com/58336896/136261453-d14aeceb-ad4f-4047-bd80-6714e3b98727.png)
+
+In this EDA, we asked several questions of the data to find patterns and possible correlations between the different variables that could explain house prices.
 
 ## Regression Model
 
