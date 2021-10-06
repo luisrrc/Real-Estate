@@ -1,6 +1,7 @@
 # Real Estate Analysis
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![SQL](https://img.shields.io/badge/SQL-red)
+![FLAML](https://img.shields.io/badge/FLAML-blue)
 ## Introduction
 
 The purpose of this project is to make an analysis about the real estate market in 10 of the main cities in the USA, for this we have created the dataset extracting data from the website www.trulia.com. 
@@ -9,7 +10,8 @@ The purpose of this project is to make an analysis about the real estate market 
 └── Real Estate Analysis
     ├── Data Extraction
     ├── Data Cleaning
-    └── Data Analysis
+    ├── Data Analysis
+    └── Regression Model
 ```
 ## Data Extraction
 All data used for this analysis was extracted from www.trulia.com, using the beautifulsoup and requests libraries.
@@ -66,4 +68,10 @@ The code for this stage is in the "Data Analysis.ipynb" notebook.
 
 In this EDA, we asked several questions of the data to find patterns and possible correlations between the different variables that could explain house prices:
 
+## Regression Model
 
+Once the exploratory data analysis is completed, a machine learning model is created by implementing a regression analysis in order to predict the price value. Use FLAML https://github.com/microsoft/FLAML a library created by Microsoft that builds machine learning models in a fast and easy way.
+
+The best model was built with the Random Forest regressor estimator, using the evaluation metric "r2".
+
+The code for this section can be found in "Regression Model.ipynb".
